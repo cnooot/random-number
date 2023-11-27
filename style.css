@@ -30,7 +30,7 @@ body{
     border-radius: 1rem;
     max-width: 500px;
     max-height: 100vh;
-    height: 500px;
+    height: 560px;
     margin: auto;
     padding: 1rem;
     margin-top: 15rem;
@@ -103,9 +103,32 @@ body{
     color: #fff;
 }
 
+.tryagain{
+    border: 2px solid #d3a0f0;
+    border-radius: 15px;
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+    background: none;
+    color: #d3a0f0;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tryagain:hover{
+    background: #d3a0f0;
+    color: #fff;
+}
+
 .answer{
     font-size: 2rem;
+    transition: all 0.3s ease in ease-in-out;
 }
+
 
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
@@ -279,7 +302,4 @@ z-index: -100;position: fixed;}
     font-weight: 200;
     animation: slideDown 4s linear infinite;    opacity: 1;
     z-index: -100;position: fixed;}
-
-
-
 
