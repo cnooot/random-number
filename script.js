@@ -15,10 +15,10 @@ let tryagainEl = document.getElementById('tryagain');
 
 console.log(randomEl);
 
-submitEl.addEventListener("click", chuj); //eventlistener do przycisku o id submit w javie submitEl
+submitEl.addEventListener("click", tt); //eventlistener do przycisku o id submit w javie submitEl
 tryagainEl.addEventListener("click", tryagain);
 
-function chuj(event){ //dodanie w nawiasach event powoduje ze funkcja jest wywolywana gdy uzyjemy przycisku przypisanego do event listenera
+function tt(event){ //dodanie w nawiasach event powoduje ze funkcja jest wywolywana gdy uzyjemy przycisku przypisanego do event listenera
     const userValue = Number(inputEl.value) //w ten sposob inputujemy numer ktory wprowadzil uzytkownik do funkcji
     attemptsE +=1;
     attemptsCount += 1; //dodajemy po 1 probie aby uzytkownik widzial ile prob zajelo mu odgadniecie liczby
